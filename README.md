@@ -1,5 +1,9 @@
 # Fish Image Classification and Localization (CNN)
 
+## Project Summary
+
+This repository contains a 2017 student project that detects and localizes fish in images using a convolutional neural network. It applies a sliding-window crop over each image, runs inference with a pre-trained Inception-based TensorFlow model, and saves high-confidence fish crops into per-species `/detected` folders. The detected crops can be used to retrain the top layer of the model for improved category recognition, and the same pipeline can be used to localize fish in test images.
+
 This project is a student project (Moscow, 2017) on image classification and localization using a convolutional neural network to detect fish in photos. The solution applies a sliding-window crop over images, runs inference with an Inception-based model, and saves detected fish patches for further training and evaluation.
 
 ## Overview
