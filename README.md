@@ -1,6 +1,6 @@
 # Fish Image Classification and Localization (CNN)
 
-This project is an учебный проект (Moscow, 2017) on image classification and localization using a convolutional neural network to detect fish in photos. The solution applies a sliding-window crop over images, runs inference with an Inception-based model, and saves detected fish patches for further training and evaluation.
+This project is an student project (Moscow, 2017) on image classification and localization using a convolutional neural network to detect fish in photos. The solution applies a sliding-window crop over images, runs inference with an Inception-based model, and saves detected fish patches for further training and evaluation.
 
 ## Overview
 
